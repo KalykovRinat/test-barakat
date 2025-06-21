@@ -12,3 +12,16 @@ window.addEventListener("scroll", () => {
 
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; 
 });
+
+  const burger = document.querySelector('.burger');
+  const menu = document.querySelector('.menu');
+  const headerButtons = document.querySelector('.header-buttons');
+
+  burger.addEventListener('click', () => {
+    menu.classList.toggle('active');
+    headerButtons.classList.toggle('active');
+
+    // Меняем aria-expanded для доступности
+    const expanded = burger.getAttribute('aria-expanded') === 'true';
+    burger.setAttribute('aria-expanded', !expanded);
+  });

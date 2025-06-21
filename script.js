@@ -7,8 +7,8 @@ FORM_DATA.addEventListener('submit', formSend);
 async function formSend(event) {
     event.preventDefault();
 
-    const TOKEN = '7241506617:AAHGISzQSJuGzf1CxobgCTpwJ_2UnxTeQ0s';
-    const CHAT_ID = '5833687519';
+    const TOKEN = '7497600082:AAGOmVf0X2omtOEsbeqaa5-cEHSpE75lZpc';
+    const CHAT_ID = '-1002657322598';
     const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
     const name = FORM_DATA.name.value.trim();

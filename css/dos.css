@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-image: url(/Photo/main.png);
+    background-image: url(../Photo/main.png);
     padding: 20px;
     color: #333;
 }

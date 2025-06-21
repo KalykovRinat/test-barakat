@@ -1,5 +1,5 @@
 body {
-    background: url(/Photo/menu.png);
+    background-image: url(../Photo/menu.png);
     font-family: 'Segoe UI', sans-serif;
   }
   
@@ -45,7 +45,6 @@ body {
     width: 100%;
     padding: 12px;
     border-radius: 12px;
-    transition: background 0.3s ease;
   }
   
   .btn-reserve:hover {

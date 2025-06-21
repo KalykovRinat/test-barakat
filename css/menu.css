@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #d9c4a1;
-    background-image: url(/Photo/menu.png);
+    background-image: url(../Photo/menu.png);
     background-size: cover;               
     background-repeat: no-repeat;         
     background-position: center center;   
@@ -135,4 +135,63 @@ details[open] summary {
     margin-bottom: 15px;
     background-color: #fff; /* фон, если у картинки прозрачность */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 📱 Адаптивные стили для экранов до 768px */
+@media (max-width: 768px) {
+
+  .menu-intro {
+    padding: 15px;
+    font-size: 16px;
+    margin: 20px 10px;
+  }
+
+  .menu-intro h2 {
+    font-size: 22px;
+  }
+
+  .menu-section {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+
+  .menu-card {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .menu-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .head ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .head ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .navbar,
+  .menu,
+  .header-buttons {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .menu-item,
+  .header-link {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .menu-card img {
+    height: auto;
+  }
 }

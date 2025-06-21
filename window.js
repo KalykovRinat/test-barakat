@@ -29,8 +29,8 @@ document.getElementById('order-form').addEventListener('submit', function(e) {
     const receipt = this.receipt.files[0];
     const selectedCombo = document.getElementById('selected-combo').innerText;
 
-    const botToken = '7241506617:AAE9fMM8zZOSpWVySkeKwH5MrLaEr2uh54M';
-    const chatId = '-1002644779234';
+    const botToken = '7497600082:AAGOmVf0X2omtOEsbeqaa5-cEHSpE75lZpc';
+    const chatId = '-1002657322598';
 
     if (!receipt) {
         alert('❗ Пожалуйста, загрузите чек.');

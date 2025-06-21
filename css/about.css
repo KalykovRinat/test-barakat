@@ -1,7 +1,7 @@
 body {
     width: 100%;
     padding: 60px 20px;
-    background-image: url(/Photo/vxod1.png); 
+    background-image: url(../Photo/vxod1.png); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,3 +61,54 @@ body {
     color: #333333; /
 }
 
+@media (max-width: 768px) {
+  body {
+    padding: 40px 10px;
+  }
+
+  #about-content {
+    padding: 20px;
+    margin: 0 10px;
+  }
+
+  #about h2 {
+    font-size: 1.8rem;
+  }
+
+  #about p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 100%;
+    max-width: 95%;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .photo img {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .footer-column {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-links li {
+    justify-content: center;
+  }
+}

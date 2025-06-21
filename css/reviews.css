@@ -1,5 +1,5 @@
 body {
-    background: url(/Photo/otzyv.png) center center / cover no-repeat;
+    background-image: url(../Photo/otzyv.png) center center / cover no-repeat;
     padding: 80px 0;
     position: relative;
     color: #fff;
@@ -124,4 +124,36 @@ display: block;
     margin: 8px 0 0;
     color: #3c3c3c;
     font-size: 15px;
+}
+
+@media (max-width: 760px) {
+  body {
+    padding: 20px 10px;
+    background-attachment: scroll; /* на мобилках лучше убрать фикс */
+  }
+
+  .review-inner {
+    padding: 20px 15px;
+    max-width: 100%;
+  }
+
+  .review-inner h2 {
+    font-size: 28px;
+  }
+
+  .review-form input,
+  .review-form select,
+  .review-form textarea,
+  .review-form button {
+    font-size: 14px;
+  }
+
+  .review-list li {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .average-rating {
+    font-size: 16px;
+  }
 }

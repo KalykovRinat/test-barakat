@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url(/Photo/main.png);
+  background-image: url(../Photo/main.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -196,7 +196,6 @@ body {
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
-  transition: background 0.3s ease;
 }
 
 .order-btn:hover {
@@ -252,7 +251,6 @@ body {
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
-  transition: background 0.3s;
 }
 
 .send-btn:hover {
@@ -276,4 +274,56 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px; 
+}
+/* —————————— */
+@media (max-width: 650px) {
+
+  body {
+    padding-top: 80px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .header-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .feature, .combo-card {
+    width: 90%;
+  }
+
+  .features-container,
+  .combo-cards {
+    gap: 20px;
+  }
+
+  #contacts iframe {
+    width: 100% ;
+    height: auto;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+
+  .modal-content {
+    width: 95%;
+  }
 }
