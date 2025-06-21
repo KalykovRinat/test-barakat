@@ -1,0 +1,143 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url(/Photo/main.png);
+    padding: 20px;
+    color: #333;
+}
+
+form#delivery-form {
+    background-color: #ffffff;
+    border: 2px solid #d9c4a1;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    text-align: center;
+    color: #8b6b3e;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#menu-items {
+    margin-bottom: 20px;
+}
+
+#menu-items label {
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+}
+
+#menu-items input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    margin-left: 10px;
+}
+
+button[type="submit"] {
+    background-color: #c47b5b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #a96247;
+}
+
+#total-price {
+    color: #a14700;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#add-dish {
+    background-color: #c47b5b;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#add-dish:hover {
+    background-color: #a96247;
+}
+
+
+button.add-btn,
+button.remove-btn {
+    background-color: #c47b5b;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+button.add-btn:hover,
+button.remove-btn:hover {
+    background-color: #a96247;
+}
+
+.main{
+    background-color: #c47b5b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 100%;
+}
+.main:hover{
+     background-color: #a96247
+     
+}

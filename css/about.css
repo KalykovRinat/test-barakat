@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    padding: 60px 20px;
+    background-image: url(/Photo/vxod1.png); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+#about-content {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #333333; 
+}
+
+#about h2 {
+    font-size: 2.2rem;
+    color: #ff9f00; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #333333; 
+}
+
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feature {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border: 2px solid #ff9f00;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    color: #333333; 
+}
+
+.feature h3 {
+    color: #ff9f00; 
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 15px;
+    color: #333333; /
+}
+

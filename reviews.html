@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы - Чайхана Баракат</title>
+    <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="icon" href="images.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="navbar">
+        <div class="logo-block">
+            <img src="logo.png" class="logo" alt="Логотип">
+        </div>
+        <div class="menu">
+            <a href="main.html" class="menu-item">Главная</a>
+            <a href="menu.html" class="menu-item">Меню</a>
+            <a href="about.html" class="menu-item">О нас</a>
+            <a href="reviews.html" class="menu-item active">Отзывы</a>
+        </div>
+    </div>
+    <div class="header-buttons">
+      <a href="index.html" class="header-link">
+        <img src="Photo/lock-icon.png" alt="Бронь" class="header-icon">
+        <span>Бронь столика</span>
+      </a>
+      
+      <a href="dostavka.html" class="header-link">
+        <img src="Photo/cart-icon.png" alt="Доставка" class="header-icon">
+        <span>Доставка</span>
+      </a>
+    
+      <a href="https://2gis.kg/karakol/geo/70030076137259532" class="header-link" target="_blank">
+        <img src="Photo/location-icon.png" alt="Локация" class="header-icon">
+        <span>Как добраться</span>
+      </a>
+    </div>
+    
+    
+</div>
+
+<section class="review-form-section">
+  <div class="review-overlay">
+    <div class="review-inner">
+      
+      <div style="text-align: center; margin-bottom: 10px;">
+        <h1 style="color: #8b5a2b; font-size: 36px; margin-bottom: 5px;">Чайхана Баракат</h1>
+      </div>
+
+      <h2>Оставьте свой отзыв 💬</h2>
+      <form class="review-form" action="#" method="post">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="rating">Оценка (1–5):</label>
+        <select id="rating" name="rating" required>
+          <option value="">Выберите</option>
+          <option value="5">⭐⭐⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="1">⭐</option>
+        </select>
+
+        <label for="message">Ваш отзыв:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Отправить отзыв</button>
+      </form>
+
+      <div class="average-rating">
+        <strong>Средняя оценка:</strong> <span id="average-rating-value">–</span>
+      </div>
+
+      <ul id="reviews-container" class="review-list"></ul>
+
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3>О нас</h3>
+      <p>Чайхана Баракат — уютное место с настоящей восточной кухней в Караколе. Лучший плов в Кыргызстане!</p>
+    </div>
+    
+    <div class="footer-column">
+      <h3>Контакты</h3>
+      <ul>
+        <li>📍 ул. Гебзе 107, Каракол</li>
+        <li>📞 +996 555 123 456</li>
+        <li>📧 barakat@chai.kg</li>
+      </ul>
+    </div>
+  
+
+    <div class="footer-column">
+          <h3>Следите за нами</h3>
+          <ul class="social-links">
+            <li><a href="#"><img src="/Photo/Instagram.png" alt="Instagram"> Instagram</a></li>
+            <li><a href="#"><img src="/Photo/Telegram.png" alt="Telegram"> Telegram</a></li>
+            <li><a href="#"><img src="/Photo/Facebook.png" alt="Facebook"> Facebook</a></li>
+          </ul>
+        </div>
+        
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Чайхана Баракат.</p>
+  </div>
+</footer>
+
+      <script src="reviews.js"></script>
+      <script src="header.js"></script>
+</body>
+</html>
